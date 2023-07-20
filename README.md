@@ -13,15 +13,25 @@ For our final step, we used an accuracy score, confusion matrix and classificati
 
 With a total score of 95.2% this is how often the model was correct, or the ratio of the correctly predicted observations to the total observations.
 
+- Confusion Matrix
+
+Predicted 0	Predicted 1
+
+Actual 0	18663	102
+
+Actual 1	56	563
+
 - Prcesion Score
 Healthy: 100%
 High-Risk: 85%
+
 The precision score relates to the number of correctly predicted positive observations among all positive instances, or false positive instances that were predicted as positive that should have been negative.
 
 
 - Recall Score
 Healthy: 99%
 High-Risk: 91%
+
 The recall score relates to the ratio of predicted positives and number of positive instances but takes into account the number of results that were false negatives, or predicted negative and should have been positive.
 
 
