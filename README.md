@@ -13,13 +13,6 @@ For our final step, we used an accuracy score, confusion matrix and classificati
 
 With a total score of 95.2% this is how often the model was correct, or the ratio of the correctly predicted observations to the total observations.
 
-- Confusion Matrix
-
-Predicted 0	Predicted 1
-
-Actual 0	18663	102
-
-Actual 1	56	563
 
 - Prcesion Score
 Healthy: 100%
