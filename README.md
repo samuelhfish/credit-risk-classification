@@ -15,20 +15,20 @@ With a total score of 95.2% this is how often the model was correct, or the rati
 
 - Confusion Matrix
 
-    # Predicted 0	Predicted 1
-    # Actual 0	18663	102
-    # Actual 1	56	563
+    Predicted 0	Predicted 1
+    Actual 0	18663	102
+    Actual 1	56	563
 
 - Prcesion Score
 Healthy: 100%
 High-Risk: 85%
-The precision score relates to the number of correctly predicted positive observations among all positive instances, or instances that were predicted as positive that should should have been negative.
+The precision score relates to the number of correctly predicted positive observations among all positive instances, or false positive instances that were predicted as positive that should have been negative.
 
 
 - Recall Score
 Healthy: 99%
 High-Risk: 91%
-The recall score relates to the ratio of predicted positives and number of positive instances but takes into account the number of resulted that were predicted negative that should have been possitive.
+The recall score relates to the ratio of predicted positives and number of positive instances but takes into account the number of results that were false negatives, or predicted negative and should have been positive.
 
 
 Because of the binary nbature of the data, a logistic regression model makes sense to use. In practicee for this exdercise, the logistic regression model did a good job of predicting the loan status. However, it seems to do a much better job at predicting a healthy loan from a high-risk loan. A possible explanation for this is that healthy loans frequently have many characteritics in common, whereas an at risk loan might have a variety of factors that contribute to it's riskiness making it harder to predict.
