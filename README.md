@@ -1,5 +1,5 @@
 # credit-risk-classification
-Credit risk classification exercised using supervised machine learning and a logistic regression model.
+Credit risk classification exercise using supervised machine learning and a logistic regression model.
 
 
 # Overview
@@ -7,16 +7,16 @@ The purpose of this analysis was to use factors such as "loan size", "interest r
 
 For the machine learning analysis, we imported the lending data, seperated the loan status which would be our labels/y variable and dropped that from our features/x variable dataframe. We then used sklearn and the train_test_split function to split the data into training and testing groups. Then we used a logistic regression model to fit the data and predict binary classification.
 
-For our final step, we used an accuracy score, confusion matrix and classification to judge the effectiveness of our model.
+For our final step, we used an accuracy score, confusion matrix and classification report to judge the effectiveness of our model.
 
 - Accuracy Sore: 95.2%
 
 With a total score of 95.2% this is how often the model was correct, or the ratio of the correctly predicted observations to the total observations.
 
 - Confusion Matrix
-Predicted 0	Predicted 1
+<!-- Predicted 0	Predicted 1
 Actual 0	18663	102
-Actual 1	56	563
+Actual 1	56	563 -->
 
 - Prcesion Score
 Healthy: 100%
