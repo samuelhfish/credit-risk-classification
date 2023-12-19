@@ -11,7 +11,7 @@ For our final step, we used an accuracy score, confusion matrix and classificati
 
 Full code exsists in 'credit_risk_classification.ipynb' notebook. Credit_Risk > credit_risk_classification.ipynb
 
-Data exists in 'lending_data.csv' file. Credit_Risk > Resources > ledning_data.csv
+Data exists in 'lending_data.csv' file. Credit_Risk > Resources > lending_data.csv
 
 ```
 After neccesarry imports we have our loan data DataFramee, df_data.
