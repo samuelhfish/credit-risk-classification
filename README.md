@@ -9,7 +9,9 @@ For the machine learning analysis, we imported the lending data, seperated the l
 
 For our final step, we used an accuracy score, confusion matrix and classification report to judge the effectiveness of our model.
 
-Full code exsist in 'credit_risk_classification.ipynb' notebook.
+Full code exsists in 'credit_risk_classification.ipynb' notebook. Credit_Risk > credit_risk_classification.ipynb
+
+Data exists in 'lending_data.csv' file. Credit_Risk > Resources > ledning_data.csv
 
 ```
 After neccesarry imports we have our loan data DataFramee, df_data.
